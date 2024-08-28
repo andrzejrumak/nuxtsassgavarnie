@@ -30,8 +30,9 @@ async function disconnect(providerName: 'github' | 'twitch') {
   <ProfileSection
     title="Authentication"
     description="Access to your account using another provider."
+    bio="Spoksik - jak coś to nie musisz dodawać"
   >
-    <UCard class="grow">
+    <ULandingCard class="grow">
       <p>
         Link one or more of the following providers to your account to access it using them.
       </p>
@@ -56,6 +57,6 @@ async function disconnect(providerName: 'github' | 'twitch') {
           {{ user?.twitchId ? 'Remove connection' : 'Connect Twitch' }}
         </UButton>
       </div>
-    </ucard>
+    </ULandingCard>
   </ProfileSection>
 </template>

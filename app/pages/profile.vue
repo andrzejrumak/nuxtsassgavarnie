@@ -21,6 +21,8 @@ useSeoMeta({
       <UPageBody class="flex flex-col gap-12">
         <ProfileSectionInformation />
 
+        <UDivider />
+
         <ProfileSectionProviders />
 
         <UDivider />

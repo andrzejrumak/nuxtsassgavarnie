@@ -48,6 +48,7 @@ async function onDeleteAccount() {
   <ProfileSection
     title="Delete Account"
     description="Permanently delete your account."
+    bio="Proszę nie....."
   >
     <UCard>
       <p>

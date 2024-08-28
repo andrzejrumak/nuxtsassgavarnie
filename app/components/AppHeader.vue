@@ -28,6 +28,13 @@ const items = [
   ],
   [
     {
+      label: 'Secret',
+      to: '/hidden',
+      icon: 'ph-alien-duotone',
+    },
+  ],
+  [
+    {
       label: 'Logout',
       icon: 'i-ph-sign-out-duotone',
       click: async () => {

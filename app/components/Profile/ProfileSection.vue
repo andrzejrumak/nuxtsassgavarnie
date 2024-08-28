@@ -2,6 +2,7 @@
 defineProps<{
   title: string
   description: string
+  bio: string
 }>()
 </script>
 
@@ -11,9 +12,12 @@ defineProps<{
       <h2 class="text-md font-bold">
         {{ title }}
       </h2>
-      <p class="text-gray-500 dark:text-gray-400">
+      <h3 class="text-gray-500 dark:text-gray-400">
         {{ description }}
-      </p>
+      </h3>
+      <h4 class="text-orange-800 dark:text-orange-300">
+        {{ bio }}
+      </h4>
     </div>
 
     <slot />

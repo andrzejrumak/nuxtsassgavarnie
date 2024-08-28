@@ -10,18 +10,19 @@ const socials = appConfig.socials
 <template>
   <UFooter
     :links="smallLinks"
-    :ui="{ bottom: { left: 'text-sm text-gray-600 dark:text-gray-300' } }"
+    :ui="{ bottom: { left: 'text-sm text-gray-600 dark:text-orange-300' } }"
   >
     <template #left>
       {{ title }} - {{ notice }}
     </template>
 
     <template #right>
+      Copyright © {{ new Date().getFullYear() }}
       <UButton
         v-for="social in socials"
         :key="social.title"
         square
-        color="gray"
+        color="green"
         variant="ghost"
         v-bind="social"
       />

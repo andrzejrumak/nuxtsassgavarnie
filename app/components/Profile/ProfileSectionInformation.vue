@@ -79,6 +79,7 @@ async function onSubmitProfileInformation(event: FormSubmitEvent<Schema>) {
   <ProfileSection
     title="Profile Information"
     description="Update your account's profile information and email address."
+    bio="No taka spoko historyjka o tobie - to jest do zrobienia"
   >
     <div class="grow space-y-8">
       <UCard
